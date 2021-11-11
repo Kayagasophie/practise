@@ -1,40 +1,24 @@
-body{
-    width: 60%;
-    margin: 0 auto;
-    /*padding: 0;*/
-    /* background-image: url('../img/logo2.jpg'); */
-    background-size:cover;
-    /*background-position: center;*/
-    /*backdrop-filter: 9px;*/
-    /*background-position: center;*/
-    font-family: sans-serif;
-}    
+
 
 body, html {
     height: 100%;
+    background-color: rgb(199, 134, 55);
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+
   }
   .container {
     position: relative;
-    /* background-image: url(../img/logo2.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    filter: blur(1.5px); 
   }
- /* .text {
-    text-align: center;
-    position: absolute;
-    left : 30%;
-    top: 30%;
-    width: 50%;
-    background-color: rgba(256 , 256,256,0.5);
-    font-size: 30px;
-
-  }*\
-
-   /* filter: blur(8px);
-  /*-webkit-filter: blur(8px);*/
+ 
 .loginbox{
     width: 40%px;
     min-height:320px;

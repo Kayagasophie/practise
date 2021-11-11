@@ -43,8 +43,14 @@ h2{
     padding: 15px 10px;
     border-bottom: 2px solid #999;
 }
-p{
-    padding: 50px
+
+.table{
+    padding: 20px;
+}
+
+th,td{
+    text-align: left;
+    padding: 20px;
 }
 
 .side-menu{
@@ -89,8 +95,8 @@ p{
     top: 0;
     right: 0;
     width: 80vw; 
-    height: 40vh;
-    background: white;
+    height: 7vh;
+    background: rgb(253, 187, 65);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,8 +106,6 @@ p{
 .container .header .nav{
     width: 90%;
     display: flex;
-    padding: 30px;
-
     align-items: center;
 }
 
@@ -109,8 +113,6 @@ p{
     flex: 3;
     display: flex;
     justify-content: center;
-    padding: 30px;
-
 }
 
 .container .header .nav .search input[type=text]{
@@ -118,15 +120,11 @@ p{
     background: white;
     padding: 10px;
     width: 50%;
-    padding: 30px;
-
 }
 
 .container .header .nav .search button{
     width: 40px;
     height: 40px;
-    padding: 30px;
-
     border: none;
     display: flex;
     align-items: center;
@@ -136,14 +134,10 @@ p{
 .container .header .nav .search button img{
     width: 30px;
     height: 30px;
-    padding: 30px;
-
 
 }
 .container .header .nav .user{
     flex: 1;
-    padding: 30px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,7 +159,6 @@ p{
 
 .container .content{
     position: relative;
-    padding: 30px;
     margin-top: 10vh;
     min-height: 90vh;
 }
@@ -181,29 +174,10 @@ p{
 .container .content .content-2 .course-overview{
     min-height:70vh;
     flex: 5;
+    
     background: white;
-    padding: 30px;
-
     margin: 50px 25px 25px 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px rgba(0, 0, 0, 0.19);
-}
-
-.container .content .content-2 .course-overview .box{
-    padding: 40px 25px;
-    display: flex;
-    padding: 30px;
-
-    justify-content: center;
-}
-
-.box2{
-    background:rgb(230, 17, 17);
-    width: 60%;
-    margin: 10px;
-    border-radius: 20px;
-    padding: 30px;
-    margin-left: 3;
-
 }
 
 
