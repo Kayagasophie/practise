@@ -44,12 +44,6 @@ h2{
     border-bottom: 2px solid #999;
 }
 
-.card{
-    background-color: white;
-    width: 50px;
-    height: 90px;
-}
-
 .side-menu{
     position: fixed;
     background-color: darkorange;
@@ -76,7 +70,7 @@ h2{
 
 .side-menu li:hover{
     background-color: white;
-    color: black;
+    color: darkorange;
 }
 
 .container{
@@ -92,7 +86,7 @@ h2{
     top: 0;
     right: 0;
     width: 80vw; 
-    height: 10vh;
+    height: 40vh;
     background: white;
     display: flex;
     align-items: center;
@@ -177,58 +171,17 @@ h2{
 }
 
 .container .content .content-2 .course-overview .box{
-    padding: 20px 15px;
+    padding: 40px 25px;
     display: flex;
     justify-content: center;
 }
 
-.card{
-    background:white;
-    width: 220px;
+.box2{
+    background:rgb(209, 205, 205);
+    width: 400px;
     margin: 10px;
     border-radius: 15px;
 }
 
-.card-image{
-    height: 140px;
-    margin-bottom: 20px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-
-.html{
-    background-image: url('../img/html.png');
-}
-
-.css{
-    background-image: url('../img/css.png');
-}
-
-.javascript{
-    background-image: url('../img/javascript.png');
-}
-
-.card h2{
-    padding: 10px;
-}
-
-.card p{
-    padding: 10px;
-}
-
-.card a{
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 10px 40px;
-}
-
-.container .content .content-2 .Upcoming-events{
-    flex: 2;
-    background: white;
-    min-height: 70vh;
-    margin: 50px 25px 25px 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0px rgba(0, 0, 0, 0.19);
-}
 
 

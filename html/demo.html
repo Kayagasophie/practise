@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student dashboard | CodeQueen</title>
+    <link rel="stylesheet" href="../style1/studentdb.css">
+
+</head>
+<body>
+    <div class="side-menu">
+        <div  class="nav1">
+            <h1>CQ Academy</h1>
+        </div>
+        <div class="nav2" style="visibility: hidden; margin-bottom: 20px;">
+            <img src="icons\dashbord-removebg-preview.png" alt="" style="height: 30px; width: 30px;">
+        </div>
+
+        <div class = "collapse">
+            <div class="li">  
+        <ul>
+            
+            <li><img src="../img1/dashbord-removebg-preview.png" alt="" style="height: 30px; width: 30px;"><a href="../html/demo.html">&nbsp;Dashboard </a></li><hr>
+            <li><img src="../img1/course-removebg-preview.png" alt="" style="height: 30px; width: 30px;"><a href="../html/courses.html"style="color:rgb(255, 255, 255)">&nbsp;My Courses</a></li><hr>
+            <li><img src="../icons1/profile.png" alt="" style="height: 30px; width: 30px;"><a href="../html/profile.html" style="color:rgb(255, 255, 255)">&nbsp;Profile</a></li><hr>
+            <li><img src="../img1/chat-removebg-preview.png" alt="" style="height: 30px; width: 30px;">&nbsp;Chat</li><hr><br><br><br>
+           <div style="margin-top: 40%;">
+            <li><img src="../icons1/settings.png" alt="" style="height: 30px; width: 30px;">&nbsp;Settings</li>
+            <li><img src="../img1/logout-removebg-preview.png" alt="" style="height: 30px; width: 30px;">&nbsp;LogOut</li>
+            
+            </div>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+    <div class="container navbar-nav">
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><img src="../icons1/search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn"> View Student List</a>
+                    <div class="img-case">
+                        <img src="../img1/avatar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="content">
+            <div class="content-2">
+                <div class="course-overview">
+                    <div class="title">
+                    <h1> Course Overview</h1>
+                    </div>
+
+
+                    <div class="box">
+                        <div class="card">
+                            <div class="card-image html"></div>
+                            <h2> HTML </h2>
+                            <P> Introduction to HTML</P>
+                            <a href="../html/description.html"> Read more... </a>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image css"></div>
+                            <h2> CSS</h2>
+                            <P> Introduction to CSS</P>
+                            <a href="#"> Read more... </a>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image javascript"></div>
+                            <h2> JAVASCRIPT</h2>
+                            <P> Introduction to JAVASCRIPT</P>
+                            <a href="#"> Read more... </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="upcoming-event">
+                    <div class="title">
+                    <h1> Upcoming Events</h1>  
+                </div>
+                <div class="side-menu2"><br><br><br>
+                    <ul>
+                        <li style="font-size: 25px;"><img src="../icons1/Ass.png" alt="" style="height: 30px; width: 40px;">&nbsp;Asignment</li><br>
+                        <li style="font-size: 25px;"> <img src="../img1/cw-removebg-preview.png" alt="" style="height: 30px; width: 40px;">&nbsp;Course work</li><br>
+                        <li style="font-size: 25px;"> <img src="../icons1/test.png" alt="" style="height: 30px; width: 40px;">&nbsp;Tests</li><br>
+                        <li style="font-size: 25px;"> <img src="../img1/exam-removebg-preview.png" alt="" style="height: 30px; width: 40px;">&nbsp;Final Exam</li><br>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(".nav1").click(function(){
+            $(".side-menu").css('width','70px');
+            $(".collapse").css('width', '70px');
+            $(".nav1").css('display','none');
+            $(".nav2").css('display', 'block');
+            $(".nav2").css('margin-left', '40px');
+            $(".li").css('visibility', 'hidden');
+            $("img").css('visibility', 'visible');
+            $("img").css('margin-left', '-30px');
+            
+        });
+
+        $(".nav2").click(function(){
+            $(".side-menu").css('width','300px');
+            $(".collapse").css('width', '300px');
+            $(".nav1").css('display','block');
+            $(".nav2").css('display', 'none');
+            $(".li").css('visibility', 'visible');
+            $("img").css('visibility', 'visible');
+            
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+       
+    height: 100%;
+    width:100%;
+   margin: auto;
+  
+  }
+  
+  .close {
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+  
+  }
+   .first {
+  
+      width: 30%;
+   }
+   .second {
+  
+      width: 70%;
+      /* display:flex ; */
+  
+   }
+   .separate {
+  
+      display:flex;
+      justify-content: space-between;
+   }
+    .button {
+        text-align: center;
+    }
+  
+  *{
+      margin: o;
+      padding: 0;
+  
+  }
+  
+  body{
+      /* background-image: url(); */
+  
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url('../img/javascript.png');
+      background-position: center;
+      background-size: contain;
+      font-family: sans-serif;
+      margin-top: 50px;
+      /* background-image: url('../img/javascript.png'); */
+      background-position: center;
+  }
+  
+  .regform{
+      width: 500px;
+      background-color: rgb(0, 0, 0, 6);
+      margin: auto;
+      color: #ffffff;
+      padding: 1px 0px 10px 0px;
+      text-align: center;
+      border-radius: 10px 10px 0px 0px;
+  }
+  
+  .main{
+      background-color: #fdbb41;
+      width: 500px;
+      min-height: 50px;
+      margin: auto;
+  }
+  
+  form{
+      padding: 5px;
+     max-width: 100%;
+  }
+  
+  #name{
+      width: 50%;
+      height: 40px;
+  }
+  .name{
+      color: black;
+      font-size: 18px;
+      font-weight: 50px;
+  }
+  
+  .email{
+      width: 330px;
+      border-radius: 3px;
+      color: #555;
+  }
+  
+  .password{
+    
+      width: 330px;
+      border-radius: 3px;
+      color: #555;
+  }
+  
+  .username{
+      width: 330px;
+      border-radius: 3px;
+      color: #555;
+  }
+  
+  .code{
+      width: 155px;
+      border-radius: 3px;
+      color: #555;
+  }
+  
+  .number{
+      width: 155px;
+      border-radius: 3px;
+      color: #555;
+  }
+   
+  
+   
+  .option{
+      width: 330px;
+      height: 40px;
+      border-radius: 6px;
+      color: #555;
+      outline: none;
+      overflow: hidden;
+  }
+  
+  .date{
+      width: 330px;
+      border-radius: 6px;
+      color: #555;
+  }
+  
+  .gender{
+      display: inline-block;
+      margin-left: 20px;
+      margin-top: 15px;
+  }
+  
+   button{
+      background-color: blue;
+      width: 10rem;
+      height: 2rem;
+      text-align: center;
+      border-radius: 10px;
+      outline: none;
+      color: white;
+      cursor: pointer;  
+  }
+  
+  .btn { 
+     color: white;
+      text-decoration: none;
+  }
+  
+  button:hover{
+      background-color:royalblue;
+  }
+  
+  
+  

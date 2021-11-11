@@ -1,41 +1,39 @@
-
+body{
+    width: 60%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    /* background-image: url('../img/bg2.jpg'); */
+    /*background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url('../img/bg2.jpg');*/
+    background-size:cover;
+}    
 
 body, html {
     height: 100%;
-    background-color: rgb(199, 134, 55);
-	font-family: 'Open Sans', sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 100vh;
-	margin: 0;
-
+    /* opacity: 0.5; */
   }
+
   .container {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    filter: blur(1.5px); 
   }
- 
+
 .loginbox{
     width: 40%px;
     min-height:320px;
     position: relative;
-    /* background-color:rgba(19, 20, 20, 0.9); */
-    background-color:rgb(236, 166, 34);
+    background-color:black;
     border-radius: 5px;
-    color: rgb(8, 8, 8);
+    color: white;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing:border-box;
     padding: 70px 30px;
-    /*opacity: 0.2px;*/
-    /*filter: blur(8px);
-  -webkit-filter: blur(8px);*/
 }
 
 .avatar{
@@ -81,35 +79,22 @@ button{
     height: 40px;
     width: 40%;
     background:darkorange;
-    
-    /*justify-content: center;
-  align-items: center;*/
-    /*color: greenyellow;*/
     font-size: 18px;
     border-radius: 20px;
-    /*position: absolute;*/
-   /* align-content: center;*/
-   
-    
 }
+
 .form-control label{
     color: white;
     font-size: 20px;
 }
 
-/*.loginbox input [type="Login"]:hover{
-    cursor: pointer;
-    background: #f51818;
-    color: #000;
-}*/
-
 .loginbox a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
-    color: darkgray;
+    color: white;
 }
 
 .loginbox a:hover{
-    color: black;
+    color: darkorange;
 }
